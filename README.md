@@ -36,5 +36,3 @@ Demonstrate advanced logic clearly
 🗃 Database: EcommerceDB Schema Design Customers Table Column Type customer_id INT, PRIMARY KEY, AUTO_INCREMENT name VARCHAR(100)
 
 Orders Table Column Type order_id INT, PRIMARY KEY, AUTO_INCREMENT customer_id INT, FOREIGN KEY (references Customers) total_amount DECIMAL(10,2)
-
-✅ Outcome Advanced query logic skills ✔ You now understand how to apply nested and correlated subqueries to extract meaningful information from relational data
